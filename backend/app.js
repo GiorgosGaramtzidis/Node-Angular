@@ -15,6 +15,7 @@ mongoose.connect("mongodb://0.0.0.0:27017/mean-course")
     })
     .catch(() =>{
         console.log('Connection failed!');
+        
     })
 
 app.use(bodyParser.json());
